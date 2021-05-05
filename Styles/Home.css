@@ -1,0 +1,187 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: #2f5d62;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+p{
+    font-family: 'Taviraj', serif;
+    font-size: 56px;
+    color: red;
+}
+ h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size:2.4rem;
+    font-family: 'Goblin One', cursive;
+}
+.clear-float{
+    clear: both;
+}
+.header-home{
+    background-image: url("https://store-images.s-microsoft.com/image/apps.46003.14259451864568504.ad5e5d07-0fbb-46ed-b9b6-a1b781645691.2ebcfa4e-172c-43d3-bf01-2d9a2a94e897?mode=scale&q=90&h=1080&w=1920");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+main{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.85));
+    font-family: serif;
+}
+main h1{
+    font-size: 5rem;
+    margin: 0;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+main h6{
+    font-size: 1.4rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.sectiunea1{
+    padding: 5% 0;
+    background-color: #f0f0f0;
+}
+
+.div-descriere{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-item{
+    text-align: center;
+}
+.div-item i {
+    font-size: 4rem;
+}
+.div-item p {
+    color: black;
+    font-family: 'Taviraj', serif;
+    font-size: 16px;
+}
+.div-item h6{
+    font-size: 1.2rem;
+}
+.react {
+    color: #00eaff;
+}
+.design{
+    color: #c06014;
+}
+
+
+/*--------------------------------------------------------------ABOUT---------------------------------------------------*/
+
+.sectiunea2 {
+    padding: 5% 0 0 0;
+    margin: 0 auto;
+    color: white;
+}
+.descriere-personala p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Taviraj', serif;
+}
+.div-poza{
+    width: 40%;
+    height: 400px;
+    float: right;
+    margin-right: 2rem;
+}
+#about h2{
+    text-align: center;
+    margin: 0;
+}
+
+
+/*--------------------------------------Skills-------------------------------*/
+.sectiune3{
+    background-color: #f0f0f0;
+    padding: 6%;
+}
+.php{
+    color:#787cb5;
+}
+#bara-php{
+    width: 70%;
+}
+.js{
+    color:  #f0db4f ;
+}
+#bara-js{
+    width: 60%;
+}
+.python{
+    color: #4B8BBE;
+}
+#bara-python{
+    width: 55%;
+}
+.css{
+    color: #264de4;
+}
+#bara-css{
+    width: 85%;
+}
+.boostrap{
+    color: #563d7c;
+}
+#bara-boostrap{
+    width: 80%;
+}
+.html{
+    color: #e34c26;
+}
+#bara-html{
+    width: 90%;
+}
+.skills{
+    text-align: center;
+}
+.sectiune3 i {
+    font-size: 5rem;
+}
+
+.col-lg-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-skill-item{
+    display: flex;
+    flex-direction: column;
+}
+.div-skill-procent {
+    margin-top: 1rem;
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #9e9d89;
+    height: 8px;
+    border-radius: 5px;
+}
+.bara-absolut{
+    width: 65%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #334443;
+}

@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login-wrapper{
+  width: 40%;
+  min-height: 60vh;
+  margin: 5rem auto;
+  border: 1px solid grey;
+  padding: 2%;
+  -webkit-box-shadow: 6px 1px 13px -4px #000000; 
+  box-shadow: 6px 1px 13px -4px #000000;
+}
+@media only screen and (max-width: 1000px) {
+  .login-wrapper {
+    width: 90%;
+  }
+}
+.login-wrapper p{
+  color: grey;
+}
+.login-wrapper i {
+  font-size: 4.5rem;
+}
+.descriere-login{
+  text-align: center;
+}
+.error{
+  background: #F2DEDE;
+  padding: 1%;
+  color: #A94442;
+  width: 100%;
+  border-radius: 5px;
+}
+.div-btn-login span {
+  float: right;
+}
+
+/*           STIL HOME.PHP                             ------------------------------------------------------------*/
+
+.wrapper-logout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-logout i {
+  font-size: 6rem;
+  margin-bottom: 10px;
+}

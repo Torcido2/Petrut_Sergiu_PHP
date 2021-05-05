@@ -1,0 +1,31 @@
+footer{
+	background-color: #1b1a17;
+	padding: 2% 2% 0 2%;
+	color: white;
+	margin-top: 3rem;
+}
+.iconite-social-media i {
+	margin: 1rem 3rem;
+	font-size: 24px;
+}
+.hr{
+	width: 90%;
+	margin: 1.5rem auto;
+	height: 2px;
+	background-color: grey;
+}
+.footer-inner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.fa-facebook{
+	color: #126e82;
+}
+.fa-instagram{
+	color: red;
+}
+.fa-twitter{
+	color: aqua;
+}
